@@ -1,0 +1,41 @@
+.alert {
+  display: flex;
+  padding: 1rem 3rem;
+  color: white;
+  position: relative;
+  align-items: center;
+  width: 20rem;
+
+  &__icon {
+    &--exclamation {
+      font-size: 1.5rem;
+      position: absolute;
+      left: 1rem;
+      fill: white;
+    }
+
+    &--close {
+      font-size: 1.5rem;
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      fill: white;
+    }
+  }
+
+  &--danger {
+    background-color: rgb(232, 71, 71);
+  }
+
+  &--warning {
+    background-color: rgb(230, 147, 59);
+  }
+
+  &--info {
+    background-color: rgb(40, 129, 164);
+  }
+
+  &--success {
+    background-color: rgb(60, 186, 104);
+  }
+}

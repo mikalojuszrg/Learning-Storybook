@@ -1,0 +1,15 @@
+.button {
+  padding: 1rem 2rem;
+  border: 0;
+
+  &--primary {
+    background-color: rgba(186, 32, 32, 0.811);
+    color: white;
+  }
+
+  &--secondary {
+    background-color: white;
+    color: rgba(186, 32, 32, 0.811);
+    border: 1px solid rgba(186, 32, 32, 0.811);
+  }
+}
